@@ -1,6 +1,13 @@
 # AlgoThoughts
 The thought process behind the solution to an algorithmic problem
 
+## Index
+
+1.[Paradigms](#paradigms)
+2.[Edge cases to take care](#edge-cases-to-take-care)
+3.[Questions that can be asked]()
+
+
 ## Paradigms
 
 | Paradigm | Concept | Examples |
@@ -21,3 +28,27 @@ loreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum i
 ### Array as position array
 
 loreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsum
+
+
+## Edge cases to take care
+
+### General
+
+1. Handle null object
+2. Look for "index out of bounds" exception
+
+### Strings/Arrays
+
+1. Handle zero length string/array
+2. Handle empty string
+3. Handle string with length 1 (particularly important in two pointer approach)
+
+## Questions that can be asked
+
+### General
+
+### Strings/Arrays
+
+1. Characters only a-z ?
+2. Are there any duplicates present?
+3.
