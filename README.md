@@ -15,6 +15,7 @@ The thought process behind the solution to an algorithmic problem
 | [two pointer approach](#two-pointer-approach) | Use two pointers for the array and move the pointers based on some decission | --- |
 | [sliding window](#sliding-window) | Similar to two pointer approach but usually the window (distace between two pointers) is fixed and the window is moved in a direction based on some decission | [ par ](#algothoughts)
 | [use array as position array](#array-as-position-array) | use index of the array to flag the value of index | used in finding duplicates in array etc |
+| [Computing left/right result arrays](#computing-left-or-right-result-arrays) | Compute left result or right result arrays| |
 
 
 ### Two pointer approach
@@ -29,6 +30,10 @@ loreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum i
 
 loreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsum
 
+### Computing left or right result arrays
+
+#### Examples:
+[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)
 
 ## Edge cases to take care
 
