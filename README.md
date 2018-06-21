@@ -1,7 +1,7 @@
 # AlgoThoughts
 The thought process behind the solution to an algorithmic problem
 
-Paradigms
+## Paradigms
 
 | Paradigm | Concept | Examples |
 | -------- | ------- | -------- |
