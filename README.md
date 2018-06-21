@@ -3,9 +3,9 @@ The thought process behind the solution to an algorithmic problem
 
 ## Index
 
-1.[Paradigms](#paradigms)
-2.[Edge cases to take care](#edge-cases-to-take-care)
-3.[Questions that can be asked]()
+1. [Paradigms](#paradigms)
+2. [Edge cases to take care](#edge-cases-to-take-care)
+3. [Questions that can be asked](#questions-that-can-be-asked)
 
 
 ## Paradigms
