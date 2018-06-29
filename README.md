@@ -41,6 +41,7 @@ loreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum i
 
 1. Handle null object
 2. Look for "index out of bounds" exception
+3. Take care of -ve numbers
 
 ### Strings/Arrays
 
@@ -48,12 +49,21 @@ loreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum i
 2. Handle empty string
 3. Handle string with length 1 (particularly important in two pointer approach)
 
+
 ## Questions that can be asked
 
 ### General
+
+### Input
+
+1. If it is number - number +ve/-ve/integer/float?
+2. Are you testing the script for multiple inputs or single input? (Intention is: sometimes you can use hashmap for storing the result and use it as a look up in case multiple inputs are being given)
 
 ### Strings/Arrays
 
 1. Characters only a-z ?
 2. Are there any duplicates present?
-3.
+3. All the numbers positive/negative?
+4. All the numbers integers or float?
+
+
