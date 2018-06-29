@@ -1,7 +1,8 @@
 ## List of problems done
 
 
-| Date | Problem | Concept used | Level |
-| ---  | ---     | ------------ | ----- |
-| June 20 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Two pointer approach | Medium |
-| June 20 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | Computing left result arrays/right result arrays | Medium |
+| Date | Problem | Concept used | Level | Editorial Done |
+| ---  | ---     | ------------ | ----- | -------------- |
+| June 20 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Two pointer approach | Medium |  No |
+| June 20 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | Computing left result arrays/right result arrays | Medium | No |
+| June 29 | [Two-Sum](https://leetcode.com/problems/two-sum/description/) | Simple hashmap | Easy | No |
