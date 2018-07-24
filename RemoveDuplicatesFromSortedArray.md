@@ -43,3 +43,57 @@ def removeDuplicate(inp):
 > Space Complexity: O(n)
 
 Method 2:
+
+Two pointers approach
+
+Intialize two pointers, one for reading and one for writing.
+Move the read pointer until it find a new number and write the new number at the index of write pointer.
+
+```
+def removeDuplicates(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        if len(nums) == 0 or len(nums) == 1:
+            return len(nums)
+        
+        readPointer = 1
+        writePointer = 0
+        
+        while (readPointer < len(nums)):
+            if (nums[readPointer] != nums[writePointer]):
+                writePointer += 1
+                nums[writePointer] = nums[readPointer]
+            readPointer += 1
+        
+        return writePointer + 1
+```
+Java Code
+```
+public int removeDuplicates(int[] nums) {
+        if (nums.length == 0 || nums.length == 1) {
+            return nums.length;
+        }
+        
+        int readPointer = 1;
+        int writePointer = 0;
+        
+        while(readPointer < nums.length) {
+            
+            if (nums[readPointer] != nums[writePointer]) {
+                writePointer += 1;
+                nums[writePointer] = nums[readPointer];
+                
+            }
+            
+            readPointer += 1;
+        }
+        
+        return writePointer + 1;
+    }
+```
+
+> Time Complexity: O(n)
+
+> Space Complexity: O(1)
