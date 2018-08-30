@@ -74,6 +74,7 @@ a.append(4) # a = [1,2,3,4]
 a.pop()
 
 a.sort()
+a.sort(key = lambda num: num*2)
 ```
 
 Java
