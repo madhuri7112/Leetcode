@@ -48,6 +48,17 @@ Java
 ```
 ```
 
+### Subarrays
+
+Python
+```
+nums = [0,1,2,3,4,5]
+
+nums[1:3]  # Prints [1,2]
+nums[:3] # Prints [0,1,2]
+nums[3:] # Prints [3,4,5]
+```
+
 ### Data structures
 
 #### List/ArrayList
