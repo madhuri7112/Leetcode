@@ -13,7 +13,14 @@ for index, number in nums:
 Java:
 
 ```
+for (String element : array) {
+    // Do something with element of type String
+    System.out.println(element);
+}
 
+for (int i = 0; i < arr.length; i++) {
+  System.out.println(i);
+}
 ```
 
 ### Iterating through a range
