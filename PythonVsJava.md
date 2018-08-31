@@ -87,6 +87,17 @@ a.sort(key = lambda num: num*2)
 Java
 
 ```
+
+public class IntervalComparator implements Comparator<Interval> {
+    @Override
+    public int compare(Interval i1, Interval i2) {
+        return i1.start - i2.start;
+    }
+}
+
+List<Interval> intervalList = Arrays.asList(intervals); // intervals - array
+Collections.sort(intervalList, new IntervalComparator());
+
 ```
 
 #### Dictionary/HashMap
@@ -128,6 +139,21 @@ Java
 ```
 
 #### Heap/PriorityQueue
+Python 
+```
+endTimeQueue = Q.PriorityQueue()
+endTimeQueue.put(intervals[0].end)
+endTimeQueue.get()   // This will remove the least element
+earliestEndTimeClassroom = endTimeQueue.queue[0] 
+```
 
+Java
+```
+PriorityQueue<Integer> endTimeClassRoomQueue = new PriorityQueue(intervals.length);
+endTimeClassRoomQueue.add(intervals[0].end);
+int leastStartTimeClassroom = endTimeClassRoomQueue.peek(); 
+endTimeClassRoomQueue.poll();
+
+```
 #### OrderedDictionary
 
