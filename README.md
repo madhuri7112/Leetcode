@@ -1,5 +1,5 @@
-# AlgoThoughts
-The thought process behind the solution to an algorithmic problem
+# AlgoEditorials
+Editorials for Algorithmic problems explaining different approaches to a problem along with their complexities
 
 ## Index
 
