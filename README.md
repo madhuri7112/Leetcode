@@ -16,7 +16,9 @@ Editorials for Algorithmic problems explaining different approaches to a problem
 | [sliding window](#sliding-window) | Similar to two pointer approach but usually the window (distace between two pointers) is fixed and the window is moved in a direction based on some decission | [ par ](#algothoughts)
 | [use array as position array](#array-as-position-array) | use index of the array to flag the value of index | used in finding duplicates in array etc |
 | [Computing left/right result arrays](#computing-left-or-right-result-arrays) | Compute left result or right result arrays| |
-
+| Divide and conquer | Divide the given problem into sub problems and solve the subproblems recursively | 
+| Greedy | Choose the solution based on the first best way possible| https://www.geeksforgeeks.org/greedy-algorithms/ |
+| Dyanamic programming | Identify subproblems and try to solve the given problem with the help of the subproblems in a top down approach |https://www.geeksforgeeks.org/dynamic-programming/ |
 
 ### Two pointer approach
 
@@ -31,11 +33,26 @@ Further read:
 
 ### Sliding window
 
-loreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsum
+Generally speaking a sliding window is a sub-list that runs over an underlying collection. I.e., if you have an array like
+```
+[a b c d e f g h]
+a sliding window of size 3 would run over it like
+
+[a b c]
+  [b c d]
+    [c d e]
+      [d e f]
+        [e f g]
+          [f g h]
+```
+
+This is useful if you for instance want to compute a running average, or if you want to create a set of all adjacent pairs etc.
+(Source: Stackoverflow)
+More Information : https://www.geeksforgeeks.org/window-sliding-technique/
 
 ### Array as position array
+<To Do> 
 
-loreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsum
 
 ### Computing left or right result arrays
 
@@ -50,6 +67,7 @@ loreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum i
 2. Look for "index out of bounds" exception
 3. Take care of -ve numbers
 
+
 ### Strings/Arrays
 
 1. Handle zero length string/array
@@ -60,6 +78,9 @@ loreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum i
 ## Questions that can be asked
 
 ### General
+
+1. Ask for expected time complexity
+2. Ask for expected space complexity
 
 ### Input
 
@@ -72,5 +93,6 @@ loreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum ipsumloreum i
 2. Are there any duplicates present?
 3. All the numbers positive/negative?
 4. All the numbers integers or float?
+5. Ask if array is sorted
 
 
