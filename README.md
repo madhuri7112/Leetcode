@@ -51,7 +51,7 @@ This is useful if you for instance want to compute a running average, or if you 
 More Information : https://www.geeksforgeeks.org/window-sliding-technique/
 
 ### Array as position array
-<To Do> 
+[To Do] 
 
 
 ### Computing left or right result arrays
