@@ -48,6 +48,7 @@ a sliding window of size 3 would run over it like
 
 This is useful if you for instance want to compute a running average, or if you want to create a set of all adjacent pairs etc.
 (Source: Stackoverflow)
+
 More Information : https://www.geeksforgeeks.org/window-sliding-technique/
 
 ### Array as position array
