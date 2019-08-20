@@ -1,0 +1,4 @@
+
+*.xml
+src/.DS_Store
+*.class
